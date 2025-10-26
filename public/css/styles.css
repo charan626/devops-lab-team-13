@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(135deg, #000000, #222222);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+}
+.nav-link {
+  color: #fff !important;
+  margin: 0 10px;
+}
+.nav-link.active {
+  color: #ffc107 !important;
+  border-bottom: 2px solid #ffc107;
+}
+.section {
+  padding: 80px 0;
+}
+.products-section .card {
+  transition: transform 0.3s ease;
+}
+.products-section .card:hover {
+  transform: translateY(-5px);
+}
+footer {
+  background: #111;
+  color: #aaa;
+  padding: 20px 0;
+}
